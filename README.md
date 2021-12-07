@@ -2,8 +2,6 @@
 
 **mad** module contains functions to query ATT&CK dataset.
 
-Import it locally.
-
 You'll need to download dataset. Querires are made locally.
 
 ## Requirements
