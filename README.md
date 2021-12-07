@@ -1,5 +1,16 @@
 # att-ck-dataset
-Python scripts to query ATT&amp;CK dataset with STIX2
+
+**mad** module contains functions to query ATT&CK dataset.
+
+Import it locally.
+
+You'll need to download dataset. Querires are made locally.
+
+## Requirements
+
+STIX2 Python library.
+
+https://stix2.readthedocs.io/en/latest/index.html
 
 ## ATT&CK
 
