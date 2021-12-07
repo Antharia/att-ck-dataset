@@ -4,6 +4,8 @@
 
 You'll need to download dataset. Queries are made locally.
 
+https://github.com/mitre/cti
+
 ## Requirements
 
 STIX2 Python library.
