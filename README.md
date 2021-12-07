@@ -8,6 +8,8 @@ https://github.com/mitre/cti
 
 ## Requirements
 
+    pip install -r requirements.txt
+
 STIX2 Python library.
 
 https://stix2.readthedocs.io/en/latest/index.html
