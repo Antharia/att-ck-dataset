@@ -1,10 +1,14 @@
 # att-ck-dataset
 
-**mad** module contains functions to query ATT&CK dataset.
+The **mad** (Mitre Att&ck Dataset) module contains functions to query ATT&CK dataset.
 
 You'll need to download dataset. Queries are made locally.
 
+https://github.com/mitre/cti
+
 ## Requirements
+
+    pip install -r requirements.txt
 
 STIX2 Python library.
 
