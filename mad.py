@@ -61,7 +61,6 @@ def get_techniques_or_subtechniques(thesrc, induce='both'):
         raise RuntimeError("Unknown option %s!" % include)
 
     return query_results
-        ])
 
 def get_techniques_by_content(thesrc, content):
     techniques = thesrc.query([ Filter('type', '=', 'attack-pattern') ])
@@ -268,15 +267,3 @@ def datacomponent_detects_techniques(thesrc):
 def technique_detected_by_datacomponents(thesrc):
     """return technique_id => {datacomponent, relationship} describing the data components that can detect the technique"""
     return get_related(thesrc, "x-mitre-data-component", "detects", "attack-pattern", reverse=True)
-
-
-src = FileSystemSource('./cti/enterprise-attack')
-
-print("Software used by groups. Writing...")
-output = parse(software_used_by_groups(src))
-result_file = open("results.txt", "w")
-n = result_file.write(str(output.serialze(pretty=True)))
-result_file.close()
-
-
-
