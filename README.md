@@ -2,7 +2,7 @@
 
 The **mad** (Mitre Att&ck Dataset) module contains functions to query ATT&CK dataset.
 
-You'll need to download dataset. Queries are made locally.
+You'll need to download this dataset. Queries are made locally.
 
 https://github.com/mitre/cti
 
